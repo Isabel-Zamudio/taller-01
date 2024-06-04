@@ -13,8 +13,9 @@ function repetir(frase, numero){
     
     for(let i = 1; i<= numero; i++){
 
-        console.log (frase)
+         console.log (i +". "+ frase)
 
     }
        
 }
+repetir(frase, numero)
