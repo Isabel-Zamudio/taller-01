@@ -14,4 +14,15 @@
 //     Diana
 //     Camilo
 
-let lista = ["Pedro", "Pablo", "María", "Juan", "Diana"]
+let nombres = ["Pedro", "Pablo", "María", "Juan", "Diana"]
+console.log(nombres)
+
+let nuevoNombre = prompt("Ingrese el nuevo nombre que desea agregar a la lista: ")
+nombres.push(nuevoNombre)
+console.log(nombres)
+
+let posición = parseInt(prompt("Ingrese la posición que desea remplazar: "))
+let remplzarNombre= prompt("Ingrese nombre para remplazar en la posición >> " +posición +": ")
+
+nombres.splice(posición, 1, remplzarNombre);
+console.log(nombres)
