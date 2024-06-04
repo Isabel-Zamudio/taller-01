@@ -13,20 +13,20 @@
 // NOTA: los 3 pasos de este ejercicio se deben realizar con programación según lo visto en clase.
 
 let numero = parseInt(prompt("Digite numero: "));
-let lista = [];
+let lista = []
 
 function listar(numero, lista){
     for(let i = 1; i <= numero; i++){
-        lista.push(i);
+        lista.push(i)
     }
-    console.log(lista);
-    return lista;
+    console.log(lista)
+    return lista
 }
 
 function eliminar(lista){
     let lista2= lista.splice(1, 1);
-    console.log(lista);
+    console.log(lista)
 }
 
 listar(numero, lista);
-eliminar(lista);
+eliminar(lista)
